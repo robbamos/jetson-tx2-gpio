@@ -53,7 +53,7 @@ int main(int argc, char *argv[]){
 
 
     // Flash the LED 5 times
-    for(int i=0; i<5; i++){
+    while(true){
         cout << "Setting the LED on" << endl;
         gpioSetValue(redLED, on);
         usleep(1000000);         // on for 200ms
