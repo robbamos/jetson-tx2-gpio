@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     gpioExport(redLED);
     gpioSetDirection(redLED, outputPin);
 
-    // Flash the LED 5 times
+    // Flash the LED
     while (true)
     {
         cout << "Setting the LED on" << endl;
